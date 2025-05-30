@@ -52,7 +52,7 @@ sentiment-analysis-project/
 ├── requirements.txt         # 依赖列表
 ├── README.md                # 本文件
 └── .gitignore               # Git忽略配置
-```
+
 
 ## 学习收获
 在这个项目中，我学会了：
