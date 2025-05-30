@@ -23,13 +23,15 @@ My first NLP project for sentiment analysis using Hugging Face Transformers.
 ## 如何运行
 
 1. 克隆仓库：
+```
    git clone https://github.com/ZYiHU/sentiment-analysis-project.git
    cd sentiment-analysis-project
-   
+```   
 
 2. 安装依赖：
+```
    pip install -r requirements.txt
-   
+```   
 
 3. 下载模型文件：
    - [config.json](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/raw/main/config.json)
@@ -48,13 +50,15 @@ My first NLP project for sentiment analysis using Hugging Face Transformers.
 sentiment-analysis-project/
 ```tree
 sentiment-analysis-project/
+sentiment-analysis-project/
 ├── models/                  # 模型目录
-|└── sentiment/           # 情感分析模型文件
+│   └── sentiment/           # 情感分析模型文件
 ├── sentiment_analysis.py    # 主程序
 ├── download_models.py       # 模型下载脚本
 ├── requirements.txt         # 依赖列表
 ├── README.md                # 本文件
 └── .gitignore               # Git忽略配置
+```
 
 ## 学习收获
 在这个项目中，我学会了：
