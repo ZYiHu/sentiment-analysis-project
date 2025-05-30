@@ -1,3 +1,9 @@
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![HuggingFace Transformers](https://img.shields.io/badge/HuggingFace-Transformers-orange.svg)](https://huggingface.co/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Open Issues](https://img.shields.io/github/issues/ZYiHU/sentiment-analysis-project.svg)](https://github.com/ZYiHU/sentiment-analysis-project/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/ZYiHU/sentiment-analysis-project.svg)](https://github.com/ZYiHU/sentiment-analysis-project/commits/main)
+
 # sentiment-analysis-project
 My first NLP project for sentiment analysis using Hugging Face Transformers.
 
@@ -47,12 +53,13 @@ My first NLP project for sentiment analysis using Hugging Face Transformers.
 
 ## 项目结构
 项目目录结构
-sentiment-analysis-project/
 ```tree
-sentiment-analysis-project/
 sentiment-analysis-project/
 ├── models/                  # 模型目录
 │   └── sentiment/           # 情感分析模型文件
+│       ├── config.json
+│       ├── tokenizer_config.json
+│       └── vocab.txt
 ├── sentiment_analysis.py    # 主程序
 ├── download_models.py       # 模型下载脚本
 ├── requirements.txt         # 依赖列表
@@ -85,5 +92,6 @@ sentiment-analysis-project/
 - 如果赚了钱请我喝奶茶
 
 项目地址：https://github.com/ZYiHU/sentiment-analysis-project
-温馨提示：如果分析结果是负面情绪，建议吃点巧克力再试一次 🍫
+
+## 温馨提示：如果分析结果是负面情绪，建议吃点巧克力再试一次 🍫
 
